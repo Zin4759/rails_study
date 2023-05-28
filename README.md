@@ -30,3 +30,7 @@ sqlite 3.7.17 2013-05-20 00:56:22 118a3b35693b134d56ebd780123b7fd6f1497668
 =======
 # rails_study
 >>>>>>> 5ba6cc0a428197ba16fdcb7ff3eca53d983e98d9
+
+
+## If you clone my project..
+-> bin/rails db:migrate

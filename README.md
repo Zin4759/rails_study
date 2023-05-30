@@ -50,3 +50,6 @@ Only I used Ruby on Rails, while everyone else did it in PHP.
 ## If you want to use a domain on this server
 rails s -p [port_number] -b [domain_name]
 example -> rails s -p 80 -b rollersm.duckdns.org
+
+## If you have a lower version of Ruby
+You will need to modify the .ruby-version and the ruby in the gemfile.

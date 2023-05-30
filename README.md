@@ -12,6 +12,8 @@ application up and running.
 
 Things you may want to cover:
 
+* Ruby on Rails version in this project / refer to gemfile
+*gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 * Ruby version
 *ruby 3.0.6p216 (2023-03-30 revision 23a532679b) [x86_64-linux]
 

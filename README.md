@@ -13,9 +13,12 @@ application up and running.
 Things you may want to cover:
 
 * Ruby on Rails version in this project / refer to gemfile
-*gem "rails", "~> 7.0.4", ">= 7.0.4.3"
+*gem "rails"
+~> 7.0.4", ">= 7.0.4.3" (X)
+-> 7.0.5
 * Ruby version
-*ruby 3.0.6p216 (2023-03-30 revision 23a532679b) [x86_64-linux]
+ruby 3.0.6p216 (2023-03-30 revision 23a532679b) [x86_64-linux] (X)
+-> ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-Linux] (O)
 
 * System dependencies
 CentOS 7

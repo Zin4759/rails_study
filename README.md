@@ -3,6 +3,7 @@
 
 ## My hope for this article
 I'm still a student, so I want a lot of feedback.
+If you have improvements, please post them to the non-main brunch
 
 -----
 

@@ -45,3 +45,7 @@ Only I used Ruby on Rails, while everyone else did it in PHP.
 
 ## If you clone my project..
 -> bin/rails db:migrate
+
+## If you want to use a domain on this server
+rails s -p [port_number] -b [domain_name]
+example -> rails s -p 80 -b rollersm.duckdns.org

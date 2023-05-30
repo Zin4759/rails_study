@@ -1,6 +1,11 @@
 <<<<<<< HEAD
 # README
 
+## My hope for this article
+I'm still a student, so I want a lot of feedback.
+
+-----
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

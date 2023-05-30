@@ -22,7 +22,7 @@ Things you may want to cover:
 * Configuration
 
 * Database version
-sqlite 3.7.17 2013-05-20 00:56:22 118a3b35693b134d56ebd780123b7fd6f1497668
+sqlite 3.7.17 (2013-05-20 00:56:22 118a3b35693b134d56ebd780123b7fd6f1497668)
 
 * Database creation
 

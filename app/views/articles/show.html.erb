@@ -15,4 +15,8 @@
 
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
-
+<hr>
+<h3>Go back<h3>
+<div>
+  <%= button_to 'back', root_path(@article), method: :get %>
+</div>

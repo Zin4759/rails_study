@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_30_131707) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_31_075014) do
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -27,6 +27,13 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_131707) do
     t.datetime "updated_at", null: false
     t.string "status"
     t.index ["article_id"], name: "index_comments_on_article_id"
+  end
+
+  create_table "signups", force: :cascade do |t|
+    t.string "username"
+    t.string "password"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "user_infos", force: :cascade do |t|

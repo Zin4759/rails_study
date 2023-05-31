@@ -1,0 +1,15 @@
+<%= form_with model: signup do |form| %>
+
+  <%= form.label :username %>
+  <%= form.text_field :username %>
+
+  <%= form.label :password %>
+  <%= form.password_field :password %>
+
+  <%= form.label :retype %>
+  <%= form.password_field :retype %>
+
+  <%= form.submit "회원가입" %>
+<% end %>
+
+

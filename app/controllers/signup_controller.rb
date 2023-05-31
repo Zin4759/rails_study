@@ -1,2 +1,4 @@
-class SignUpController < ApplicationController
+class SignupController < ApplicationController
+  def create
+  end
 end

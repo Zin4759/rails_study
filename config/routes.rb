@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   root "login#login"
   post '/login', to: 'login#login'#, as :login
-
+  get '/signup', to: 'signup#create'
+#  post '/signup', to: 'signup#signup'
 #  get "/login", to "/login"
 #  root "LogInPage#login"
 #  root "articles#index"

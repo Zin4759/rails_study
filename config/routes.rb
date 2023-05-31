@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 #  resources :user_permissions, controller: 'LogInPage#login'
 
   root "login#login"
+  post '/login', to: 'login#login'#, as :login
 
 #  get "/login", to "/login"
 #  root "LogInPage#login"

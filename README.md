@@ -48,6 +48,7 @@ A backup of a web services project I did for a college class.
 Only I used Ruby on Rails, while everyone else did it in PHP.
 
 ## If you clone my project..
+-> bundle install
 -> bin/rails db:migrate
 
 ## If you want to use a domain on this server

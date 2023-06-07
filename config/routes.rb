@@ -9,9 +9,9 @@ Rails.application.routes.draw do
   end
 
 
-  resources :signup do
-    resources :create
-  end
+#  resources :signup do
+#    resources :create
+#  end
 
 #  get '/signup', to: '/signup#create'
 #  post '/signup', to: '/signup/create'
